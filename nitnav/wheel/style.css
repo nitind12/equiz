@@ -1,0 +1,52 @@
+.containerwheel {
+    position:absolute;
+    right:0px;
+    top:50px;
+    z-index: 999999;
+    overflow: hidden;
+    width: 650px;
+    height: 650px;
+}
+.roulette {
+    position: absolute;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;    
+    left: 0px;    
+    background-image: url('phieneasroulette.png');
+    border-radius: 458px;
+}
+
+.spinner {
+    position:absolute;
+    background-image:url('pin.png');
+    width:150px;
+    height:150px;
+    top:220px;
+    left:226px;
+    z-index:1000;
+}
+
+.price{
+    position:absolute;
+    display:none;
+    left:225px;
+    top:340px;
+    width:150px;
+    height:150px;
+    box-shadow: 0px 7px 10px #000;
+    border-radius:200px;
+    background: #fff;
+    z-index: 99999999;    
+}
+
+.priceT{
+    position:absolute;
+    left:15%;
+    top:43%;
+    font-size:100px;
+    font-weight:bold;
+    font-family: fantasy;
+    color:red;
+}
+
